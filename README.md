@@ -19,7 +19,7 @@ Play against the computer, track your score, and enjoy a clean responsive UI.
 
 (Add a screenshot of your app here — e.g., game screen with score)
 
-![![game screen](image.png) ](./screenshot.png)
+![![game screenshot](./src/image.png) ](./screenshot.png)
 
 🚀 Getting Started
 
