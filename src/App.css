@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color:azure;
+  margin:0;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.option-container{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.option-container h1{
+  margin:0;
+  text-align: center;
+  margin-bottom: 25px;
+  color:rgb(43, 98, 226);
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+button{
+  background-color: rgb(98, 98, 249);
+  border: none;
+  border-radius: 5px;
+  padding: 20px 25px;
+  margin: 10px;
+  font-size: 24px;
+  transition: background 0.3s ease transform 0.3s ease;
+}
+
+button:hover{
+  background-color: rgb(54, 103, 237);
+  transform: rotate(5deg);
+}
+
+.result {
+  background-color: aqua;
+  font-weight: bold;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Use grid to align result & score side by side */
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.result-left {
+  text-align: left;
+}
+
+.result-right {
+  text-align: right;
+  padding: 20px;
+  font-size: 20px;
+  color: darkblue;
+  background-color: white;
+  border-radius: 8px;
+
+}
+
+.main-result {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(39, 39, 138);
+}
+
+
