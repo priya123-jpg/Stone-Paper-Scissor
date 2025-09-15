@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Stone-Paper-Scissor/static/css/main.1619cadc.css",
+    "main.js": "/Stone-Paper-Scissor/static/js/main.986802d9.js",
+    "index.html": "/Stone-Paper-Scissor/index.html",
+    "main.1619cadc.css.map": "/Stone-Paper-Scissor/static/css/main.1619cadc.css.map",
+    "main.986802d9.js.map": "/Stone-Paper-Scissor/static/js/main.986802d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1619cadc.css",
+    "static/js/main.986802d9.js"
+  ]
+}
